@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.mainSwiper img{
+    height: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+.swiper-button-next{
+    color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.swiper-button-prev{
+    color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after{
+    color: black;
+    font-size: 15px;
+}
+.swiper-pagination-bullet-active{
+    transform: scale(1.3);
+    background-color: transparent;
+    border: 1px solid;
+}
